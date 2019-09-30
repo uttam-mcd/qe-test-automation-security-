@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 5, Errors: 0, Skipped: 9, Time elapsed: 0.654 sec <<< FAILURE! - in TestSuite
+setUp(com.ZAP_Selenium.SecurityTest)  Time elapsed: 0.442 sec  <<< FAILURE!
+net.continuumsecurity.proxy.ProxyException: org.zaproxy.clientapi.core.ClientApiException: java.net.ConnectException: Connection refused (Connection refused)
+Caused by: org.zaproxy.clientapi.core.ClientApiException: java.net.ConnectException: Connection refused (Connection refused)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+
+closeBrowser(com.ZAP_Selenium.SecurityTest)  Time elapsed: 0.464 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+closeBrowser(com.ZAP_Selenium.SecurityTest)  Time elapsed: 0.466 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+closeBrowser(com.ZAP_Selenium.SecurityTest)  Time elapsed: 0.468 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+closeBrowser(com.ZAP_Selenium.SecurityTest)  Time elapsed: 0.469 sec  <<< FAILURE!
+java.lang.NullPointerException
+

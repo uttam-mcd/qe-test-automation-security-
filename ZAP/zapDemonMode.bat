@@ -1,0 +1,1 @@
+java -Xmx512m -jar zap-2.8.0.jar -daemon -host 127.0.0.1 -port 8098 -dir tmp -config scanner.threadPerHost=20 -config spider.thread=10 -config api.disablekey=true

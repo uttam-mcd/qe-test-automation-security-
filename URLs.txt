@@ -1,0 +1,2 @@
+BASE_URL=https://felix.apps.jetsprod.panteratiramisu.com
+https://felix.apps.jetsprod.panteratiramisu.com/search

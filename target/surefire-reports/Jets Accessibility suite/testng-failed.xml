@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Jets Accessibility suite]">
+  <test thread-count="5" verbose="0" name="Accessibility test(failed)">
+    <classes>
+      <class name="com.ZAP_Selenium.SecurityTest">
+        <methods>
+          <include name="setToSignIn"/>
+          <include name="checkSearchPage"/>
+          <include name="checkClassificationPage"/>
+          <include name="closeBrowser"/>
+          <include name="tearDownDriver"/>
+          <include name="checkCelebProfilePage"/>
+          <include name="checkRawDataPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ZAP_Selenium.SecurityTest -->
+    </classes>
+  </test> <!-- Accessibility test(failed) -->
+</suite> <!-- Failed suite [Jets Accessibility suite] -->
